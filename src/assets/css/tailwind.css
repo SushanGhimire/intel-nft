@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 /* ./src/index.css */
 @tailwind base;
 @tailwind components;
@@ -7,4 +6,7 @@
 
 .animation {
     @apply transition-all duration-300 ease-in-out;
+}
+.wp{
+    @apply px-5 md:px-10  xl:px-32;
 }

@@ -6,6 +6,7 @@ import store from "./store";
 import UrlDasWebmgnr from "./UrlDasWebmgnr";
 import reportWebVitals from "./reportWebVitals";
 import "./assets/css/tailwind.css";
+import "./assets/css/style.css";
 
 store.subscribe(() => store.getState());
 ReactDOM.render(

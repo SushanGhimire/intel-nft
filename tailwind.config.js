@@ -3,16 +3,23 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      ringWidth: {
+        DEFAULT: "2px",
+        6: "6px",
+        10: "10px",
+      },
       width: {
         100: "32rem",
       },
-      colors: {},
+      colors: {
+        text: "#0F294E",
+      },
       spacing: {
         100: "30rem",
         68: "17rem",
       },
       fontFamily: {
-        popping: ["Poppins", "sans-serif"],
+        bal: ["Balsamiq Sans", "sans-serif"],
       },
     },
   },
